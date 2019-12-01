@@ -1,0 +1,49 @@
+#article-content {
+
+    p {
+        font-size: 18px;
+        color: DimGray ;
+        text-indent: 2em;
+        letter-spacing: 1px;
+        line-height: 1.8em;
+    }
+
+    @media screen and (max-width: 1200px) {
+        p {
+            font-size: 16px;
+        }
+    }
+
+    div.placeholder {
+        display: none;
+    }
+
+    .img {
+        display: flex;
+        justify-content: center;
+        padding: 15px 0;
+        
+        img {
+            width: 60%;
+            margin: 0 auto !important;
+            border-radius: 25px;
+            box-shadow: 6px 6px 6px lightgrey;
+        }
+
+        @media screen and (max-width: 1200px) {
+            img {
+                width: 65%;
+            }
+        }
+
+        @media screen and (max-width: 750px) {
+            img {
+                width: 75%;
+            }
+        }
+
+        .load-pic {
+            display: none;
+        }
+    }
+}

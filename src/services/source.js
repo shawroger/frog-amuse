@@ -1,0 +1,10 @@
+export const logoSrc = "https://s2.ax1x.com/2019/11/29/QkTIxg.png";
+export const title = "Frog Amuse";
+export const appVersion = "0.0.1";
+export const cityAPI = "http://pv.sohu.com/cityjson";
+export const newsAPI = "http://from.shawroger.com/mine/news.php";
+export const prettyAPI = "http://from.shawroger.com/mine/pretty.php";
+export const newsDetailAPI = "http://from.shawroger.com/mine/news-detail.php";
+export const morePicture = "https://s2.ax1x.com/2019/11/30/QVwe8P.png";
+export const remoteAPI = "http://from.shawroger.com/mine/get.php";
+export const badChickenSoup = "http://from.shawroger.com/mine/getBadChickenSoup.php";
